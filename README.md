@@ -129,7 +129,10 @@ To make spaces the default again for python:
 
 ## Description
 
-This python module is created to help the students build a basic understanding of some python practices such as if, else conditions,
+This python module is created to help the students build a basic 
+
+understanding of some python practices such as if, else conditions,
+
 using casting properly and using input() and some light recursion
 
 ### Instructions
