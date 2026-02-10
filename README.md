@@ -38,3 +38,15 @@ Only if you concatenate manually between a string and an int, you need str()
 Example of concatenating:
 1_print("Total: " + str(day1 + day2 + day3)) also works like the , but we need to add the space after colon here
 2_print("Total: " + (day1 + day2 + day3)) Would give an error of only being ble to concatenate str not int so here is the only case we'd need the str cast
+######CHECK flake8
+python3 in terminal opens up the python interpreter
+# def ft_count_harvest_iterative():
+#     days = int(input("Days until harvest: "))
+#     for i in range(1, days + 1):
+#         print("Day", i)
+#     print("Harvest time!")
+The above code is another implementation of the count iterative approach
+range(1, days + 1)
+means the i will start with value = 1
+and it will iterate while i < days + 1
+so i goes from 1 to days (both included)
