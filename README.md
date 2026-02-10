@@ -82,7 +82,9 @@ Only if you concatenate manually between a string and an int, you need str()
 
 Example of concatenating:
 
-1_print("Total: " + str(day1 + day2 + day3)) also works like the , but we need to add the space after colon here
+1_print("Total: " + str(day1 + day2 + day3)) also works like the , but 
+
+we need to add the space after colon here
 
 2_print("Total: " + (day1 + day2 + day3)) Would give an error of only 
 
