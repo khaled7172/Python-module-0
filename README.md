@@ -84,7 +84,11 @@ Example of concatenating:
 
 1_print("Total: " + str(day1 + day2 + day3)) also works like the , but we need to add the space after colon here
 
-2_print("Total: " + (day1 + day2 + day3)) Would give an error of only being ble to concatenate str not int so here is the only case we'd need the str cast
+2_print("Total: " + (day1 + day2 + day3)) Would give an error of only 
+
+being ble to concatenate str not int so here is the only case we'd 
+
+need the str cast
 
 #CHECK flake8
 
