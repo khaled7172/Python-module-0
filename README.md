@@ -50,3 +50,13 @@ range(1, days + 1)
 means the i will start with value = 1
 and it will iterate while i < days + 1
 so i goes from 1 to days (both included)
+To make spaces the default again for python:
+1_Ctrl+shift+p
+2_preferences: open default settings JSON
+3_add these lines
+"editor.insertSpaces": true,
+"editor.tabSize": 4,
+"[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+}
