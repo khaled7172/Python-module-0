@@ -1,0 +1,40 @@
+to define a function in python
+def function_name(parameter if needed here):
+    code
+input("Enter a number: ")
+this prints to output the text inside and expects a string
+casting the input to int casts result to an int value
+print return None Always
+int(input("Enter a digit: ")) prints it and asks for a digit
+int(input(print("Enter a digit: "))) is incorrect since its like we are expecting a value that is a string prompt that we will cast to int
+but the value passed to it in None since in python, the innermost call is evaluated first and could give errors
+putting print("Total:", total)
+The space after colon is added automatically by the comma
+print() automatically converts numbers to string
+so no need to cast to str like
+total = (str)(day1 + day2 + day3)
+build in functions in python should not be written:
+like: sum, list, input, str
+example:
+numbers = [1, 2, 3]
+print(sum(numbers)) # 6
+If you do:
+sum = day1 + day2 + day3 
+python now thinks sum refers to your variable, not the built-in function
+If later in program you try:
+total_list = [1, 2, 3]
+print(sum(total_list))
+type error because sum is now an integer, not a function
+print("total:", day1 + day2 + day3)
+Everything is evaluated from left to right
+argument by argument
+first is the string "total"
+then day1 + day2 + day3
+python does the addition first
+It automatically converts non-strings to strings when printing
+It adds a space between arguments automatically
+If theres signs they happen first
+Only if you concatenate manually between a string and an int, you need str()
+Example of concatenating:
+1_print("Total: " + str(day1 + day2 + day3)) also works like the , but we need to add the space after colon here
+2_print("Total: " + (day1 + day2 + day3)) Would give an error of only being ble to concatenate str not int so here is the only case we'd need the str cast
